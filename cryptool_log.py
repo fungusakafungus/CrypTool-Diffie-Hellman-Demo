@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/python
 
 import re
 def parse_cryptool_log(input):
@@ -20,8 +20,8 @@ def parse_cryptool_log(input):
     >>> parse_cryptool_log(line for line in log.splitlines())
     [1L, 2L, 3L, 4L, 5L, 6L, 7L, 8L]
 
-    >>> parse_cryptool_log(open('Cry-cry2.txt'))
-    [97L, 2L, 14L, 8L, 88L, 62L, 61L, 61L]
+    >>> parse_cryptool_log(open('Cry-cry4.txt'))
+    [23L, 17L, 5L, 5L, 21L, 21L, 14L, 14L]
 
     >>> log='''
     ... bla bla bla
