@@ -1,0 +1,35 @@
+Zunächst einigten sich Alice und Bob auf die öffentlichen Parameter des Schlüsselaustauschs. Hierzu wählten sie eine Primzahl p und einen Generator g:
+
+p: 139756709190287153645365756438162563636795128045925720494989275710386279923479
+
+g: 63428554849132929853628286645298654290144920785785930402233506739397164458801
+
+Nun wählten sowohl Alice als auch Bob jeweils für sich ihre Geheimzahlen. Alice und Bob legten ihre Geheimnisse a und b wie folgt fest:
+
+a: 121727021008072968583331117001755076325257503192881082155173820775172619535045
+
+b: 70266215928407400982639027081004613336489103759380590920910781415895457221215
+
+Falls die gewählten Geheimnisse a und b größer oder gleich dem Primzahlmodul p sind, werden sie Modulo p reduziert. Nachfolgend sind die tatsächlich verwendeten Werte angegeben:
+
+a (reduziert mod p):
+121727021008072968583331117001755076325257503192881082155173820775172619535045
+
+b (reduziert mod p):
+70266215928407400982639027081004613336489103759380590920910781415895457221215
+
+Anhand ihrer zuvor gewählten Geheimnisse erzeugte Alice ihren öffentlichen Teilschlüssel A. Bob erzeugte parallel dazu seinen öffentlichen Teilschlüssel B:
+
+A: 68750969128902918068104330250910287157758091495620991520239406841649646089066
+
+B: 42021879093198571634478497009517848651989524350797632162851575454999659643662
+
+Als nächstes tauschten Alice und Bob ihre öffentlichen Teilschlüssel aus, d.h. Alice sendete ihren Schlüssel A an Bob und Bob sendete seinen Schlüssel B an Alice.
+
+Nun konnten Alice und Bob jeweils den geheimen und gemeinsamen Sessionkey erzeugen. Alice berechnete ihren Schlüssel SA, Bob berechnete den Schlüssel SB:
+
+SA: 87446247723116343035007853023704974031179019752403210998672498999678315369732
+
+SB: 87446247723116343035007853023704974031179019752403210998672498999678315369732
+
+Theoretisch wäre es Alice und Bob nun möglich, mit Hilfe des jeweils berechneten Sessionkeys SA und SB untereinander auszutauschende Dokumente zum Schutz vor Dritten zu verschlüsseln bzw. zu entschlüsseln.
