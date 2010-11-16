@@ -1,0 +1,14 @@
+Help on module diffiehellmandemo:
+
+NAME
+    diffiehellmandemo - Read CrypTool Diffie-Hellman log file and compute A, B, SA, SB
+
+FILE
+    diffiehellmandemo.py
+
+FUNCTIONS
+    main(inputfile)
+    
+    usage()
+
+

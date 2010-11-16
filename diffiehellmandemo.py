@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 # vim: set fileencoding=utf-8:
+"""Read CrypTool Diffie-Hellman log file and compute A, B, SA, SB
+"""
 
 import fileinput
 
